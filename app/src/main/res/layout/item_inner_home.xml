@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/llItemInnerHome"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/movie_pic"
+        android:scaleType="centerCrop"
+        android:background="@color/colorAccent"
+        android:id="@+id/ivItem"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSongTitle"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:text="song name ..."/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSongMovie"
+        android:layout_marginTop="5dp"
+        android:text="movie name"
+        android:textSize="12dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
